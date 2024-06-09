@@ -128,10 +128,9 @@ const SectionVideos: FC<SectionVideosProps> = ({
   return (
     <div className={`nc-SectionVideos ${className}`}>
       <Heading
-        desc="Check out our hottest videos. View more and share more new
-          perspectives on just about any topic. Everyone’s welcome."
+        desc="Descubre nuestros videos más populares. ¡Todos son bienvenidos!"
       >
-        🎬 The Videos
+        🎬 Nuestros videos
       </Heading>
 
       <div className="flex flex-col relative sm:pr-4 sm:py-4 md:pr-6 md:py-6 xl:pr-14 xl:py-14 lg:flex-row">

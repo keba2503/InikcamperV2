@@ -59,7 +59,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "6",
-    href: "/listing-stay-map",
+    href: "/",
     name: "Maldives",
     taxonomy: "category",
     count: 2223,
@@ -68,7 +68,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "7",
-    href: "/listing-stay-map",
+    href: "/",
     name: "New Yourk",
     taxonomy: "category",
     count: 1775,
@@ -77,7 +77,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "8",
-    href: "/listing-stay-map",
+    href: "/",
     name: "Singapore",
     taxonomy: "category",
     count: 1288,
