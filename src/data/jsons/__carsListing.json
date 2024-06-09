@@ -130,7 +130,7 @@
     "price": "$268",
     "gearshift": "Auto gearbox",
     "seats": 4,
-    "saleOff": "-10% today",
+    "saleOff": "",
     "isAds": null,
     "map": { "lat": 55.2288039, "lng": 61.6050232 }
   },

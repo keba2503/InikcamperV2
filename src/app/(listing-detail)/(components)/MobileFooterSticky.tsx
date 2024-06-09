@@ -16,9 +16,7 @@ const MobileFooterSticky = () => {
         <div className="">
           <span className="block text-xl font-semibold">
             $311
-            <span className="ml-1 text-sm font-normal text-neutral-500 dark:text-neutral-400">
-              /night
-            </span>
+
           </span>
           <ModalSelectDate
             renderChildren={({ openModal }) => (

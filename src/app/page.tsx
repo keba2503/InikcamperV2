@@ -5,6 +5,7 @@ import SectionHero3 from "@/app/(server-components)/SectionHero3";
 import CardCategory6 from "@/components/CardCategory6";
 import Booking from "@/app/bookinHead/page";
 import Heading from "@/shared/Heading";
+import SectionGridFeaturePlaces from "@/components/SectionGridFeaturePlaces";
 import SectionVideos from "@/components/SectionVideos";
 import PageContact from "@/app/contact/page";
 import PageMaps from "@/app/maps/page";
@@ -72,6 +73,7 @@ function PageHome3() {
             <div className="container px-1 sm:px-4 mb-24 ">
                 <h3 className="text-center text-2xl font-bold mb-4">Reserva aquí</h3>
                 <Booking/>
+                <SectionGridFeaturePlaces cardType="card2"/>
             </div>
 
             <div className="container relative space-y-24 mb-24 ">
