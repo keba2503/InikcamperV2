@@ -17,7 +17,10 @@ const GuideAccordion: React.FC = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:3000/api/guide');
+                const response = await fetch(process.env.NEXT_PUBLIC_API_URL as string);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
                 const data = await response.json();
                 setGuide(data);
             } catch (error) {
