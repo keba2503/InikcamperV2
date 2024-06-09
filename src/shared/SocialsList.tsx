@@ -8,9 +8,9 @@ export interface SocialsListProps {
 }
 
 const socialsDemo: SocialType[] = [
-  { name: "Youtube", icon: "lab la-whatsapp", href: "#" },
-  { name: "Youtube", icon: "lab la-youtube", href: "#" },
-  { name: "Instagram", icon: "lab la-instagram", href: "#" },
+  { name: "Youtube", icon: "lab la-whatsapp", href: "https://wa.me/34684198547" },
+  { name: "Youtube", icon: "lab la-youtube", href: "/" },
+  { name: "Instagram", icon: "lab la-instagram", href: "https://www.instagram.com/inikcamper.es" },
 ];
 
 const SocialsList: FC<SocialsListProps> = ({
