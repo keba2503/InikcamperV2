@@ -8,35 +8,33 @@ export interface SocialsListProps {
 }
 
 const socialsDemo: SocialType[] = [
-  { name: "Facebook", icon: "lab la-facebook-square", href: "#" },
-  { name: "Twitter", icon: "lab la-twitter", href: "#" },
+  { name: "Youtube", icon: "lab la-whatsapp", href: "#" },
   { name: "Youtube", icon: "lab la-youtube", href: "#" },
   { name: "Instagram", icon: "lab la-instagram", href: "#" },
 ];
 
 const SocialsList: FC<SocialsListProps> = ({
-  className = "",
-  itemClass = "block",
-  socials = socialsDemo,
-}) => {
+                                             className = "",
+                                             itemClass = "block",
+                                             socials = socialsDemo,
+                                           }) => {
   return (
-    <nav
-      className={`nc-SocialsList flex space-x-2.5 text-2xl text-neutral-6000 dark:text-neutral-300 ${className}`}
-      data-nc-id="SocialsList"
-    >
-      {socials.map((item, i) => (
-        <a
-          key={i}
-          className={`${itemClass}`}
-          href={item.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          title={item.name}
-        >
-          <i className={item.icon}></i>
-        </a>
-      ))}
-    </nav>
+      <nav className={`self-center text-2xl md:text-3xl w-12 h-12 rounded-full text-neutral-700 dark:text-neutral-300 focus:outline-none flex items-center justify-center pr-4 ${className}`}
+           data-nc-id="SocialsList"
+      >
+        {socials.map((item, i) => (
+            <a
+                key={i}
+                className={`hover:bg-neutral-100 dark:hover:bg-neutral-800 focus:outline-none ${className}`}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={item.name}
+            >
+              <i className={item.icon}></i>
+            </a>
+        ))}
+      </nav>
   );
 };
 
