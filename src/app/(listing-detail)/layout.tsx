@@ -7,6 +7,9 @@ import React, {ReactNode} from "react";
 import MobileFooterSticky from "./(components)/MobileFooterSticky";
 import {imageGallery as listingStayImageGallery} from "./listing-stay-detail/constant";
 import { imageGallery as listingInikDarkImageGallery } from "./inikdark/constant";
+import { imageGallery as listingInikLightImageGallery } from "./iniklight/constant";
+import { imageGallery as listingInikCarImageGallery } from "./inikcar/constant";
+
 import {Route} from "next";
 
 const DetailtLayout = ({children}: { children: ReactNode }) => {
@@ -27,6 +30,12 @@ const DetailtLayout = ({children}: { children: ReactNode }) => {
         }
         if (thisPathname?.includes("/inikdark")) {
             return listingInikDarkImageGallery;
+        }
+        if (thisPathname?.includes("/iniklight")) {
+            return listingInikLightImageGallery;
+        }
+        if (thisPathname?.includes("/inikcar")) {
+            return listingInikCarImageGallery;
         }
 
         return [];
