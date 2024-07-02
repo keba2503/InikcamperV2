@@ -1,9 +1,9 @@
 import { ListingGalleryImage } from "@/components/listing-image-gallery/utils/types";
-import img1 from '@/images/Exteriores/inikdark/1.png';
-import img2 from '@/images/Exteriores/inikdark/2.png';
-import img3 from '@/images/Exteriores/inikdark/3.png';
-import img4 from '@/images/Exteriores/inikdark/4.png';
-import img5 from '@/images/Exteriores/inikdark/5.png';
+import img1 from '@/images/Exteriores/iniklight/1.jpg';
+import img2 from '@/images/Exteriores/iniklight/2.jpg';
+import img3 from '@/images/Exteriores/iniklight/3.jpg';
+import img4 from '@/images/Exteriores/iniklight/4.jpg';
+import img5 from '@/images/Exteriores/iniklight/5.jpg';
 
 // Agrega todas las imágenes importadas a una matriz
 export const PHOTOS = [
