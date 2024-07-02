@@ -99,7 +99,6 @@ function PageHome3() {
                 <SectionVideos/>
                 {/* SECTION */}
                 <PageContact/>
-                <PageMaps/>
             </div>
         </main>
     );
